@@ -83,7 +83,7 @@ class Main extends PluginBase implements Listener {
         switch ($name) {
             case "SPEED":
                 return VanillaEffects::SPEED();
-            case "SLOW":
+            case "SLOWNESS":
                 return VanillaEffects::SLOWNESS();
             case "HASTE":
                 return VanillaEffects::HASTE();
