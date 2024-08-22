@@ -68,7 +68,7 @@ class Main extends PluginBase implements Listener {
 
             $effectClass = $this->getEffectByName($effectType);
             if ($effectClass !== null) {
-                $effectInstance = new EffectInstance($effectClass, $duration, $level);
+                $effectInstance = new EffectInstance($effectClass, $duration, $level - 1);
                 $player->getEffects()->add($effectInstance);
             } else {
                 $this->getLogger()->warning("Unknown effect: " . $effectType);
