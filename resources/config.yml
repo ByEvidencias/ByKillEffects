@@ -1,0 +1,12 @@
+effects:
+  - effect: SPEED
+    duration: 60
+    level: 2
+  - effect: STRENGTH
+    duration: 120
+    level: 1
+  - effect: REGENERATION
+    duration: 30
+    level: 3
+
+message: "&aYou have received effects for killing a player."
